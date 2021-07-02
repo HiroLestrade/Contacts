@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <script src="./index.js"></script>
+    <script src="./functions.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contacts</h1>
+    </header>
+    <main>
+      <section>
+        <label for="name">
+          <span>Name</span>
+          <input type="text" id="name"/>
+        </label>
+
+        <label for="phone">
+          <span>Phone</span>
+          <input type="text" name="phone" id="phone"/>
+        </label>
+
+        <label for="email">
+          <span>Email</span>
+          <input type="text" name="email" id="email"/>
+        </label>
+
+        <button id="add">Add</button>
+      </section>
+
+      <section class="content">
+        <table>
+          <thead>
+            <th>N</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th></th>
+          </thead>
+          <tbody id="tableBody">
+
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
